@@ -1,5 +1,9 @@
 # nystudio107/devmode Change Log
 
+## 2.7.2 - 2024.01.08
+### Changed
+* Updated to the latest Craft CMS 4
+
 ## 2.7.1 - 2023.09.22
 ### Changed
 * Move the `src/` dir directly into `buildchain/` to avoid issues with `nodeResolve`
