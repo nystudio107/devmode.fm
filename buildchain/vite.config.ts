@@ -14,17 +14,15 @@ export default defineConfig(({command}) => ({
   base: command === 'serve' ? '' : '/dist/',
   build: {
     emptyOutDir: true,
-    manifest: true,
+    manifest: 'manifest.json',
     outDir: '../cms/web/dist',
+    sourcemap: true,
     rollupOptions: {
       input: {
         app: 'src/js/app.ts',
         'lazysizes-wrapper': 'src/js/utils/lazysizes-wrapper.ts',
         episodes: 'src/js/modules/episodes.js',
         player: 'src/js/modules/player.js',
-      },
-      output: {
-        sourcemap: true
       },
     }
   },

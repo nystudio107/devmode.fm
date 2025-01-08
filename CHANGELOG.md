@@ -1,5 +1,9 @@
 # nystudio107/devmode Change Log
 
+## 2.7.3 - 2024.01.08
+### Changed
+* Updated the `buildchain` to use Vite 5
+
 ## 2.7.2 - 2024.01.08
 ### Changed
 * Updated to the latest Craft CMS 4
