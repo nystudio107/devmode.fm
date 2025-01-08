@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   92845533-f123-4a66-937a-1f9ed6ddea24:
     tabs:
@@ -9,9 +10,12 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2025-01-08T21:08:40+00:00'
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
+            inputType: null
             instructions: null
             label: Title
             max: null
@@ -19,8 +23,9 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -31,10 +36,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 324e7a11-3346-41e7-a29d-4636ab907e51 # Episode Number
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -43,10 +52,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 8011817c-9518-4a31-9aa8-cad6d4a08b81 # Episode Summary
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -55,10 +68,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 61953a92-8b34-4678-9bae-fd5a45142f26 # Episode Tags
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -67,10 +84,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: a5cf9c0d-1797-4a60-8c47-bc28c5f01a95 # Episode Hosts
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -79,10 +100,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 7e338b73-ac10-44cf-892e-04afc0164991 # Episode Guests
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -91,10 +116,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 0090f7a3-1e22-4fb5-9ae0-01de38805601 # Episode Media
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -103,10 +132,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 523395ea-5738-4ca5-a119-f32221ea5ca8 # Episode Transcript
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -115,10 +148,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 07f04bdf-277d-4010-9fbe-497cd9593324 # Related Episodes
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -127,10 +164,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 8c9dd611-b43b-4e22-b076-3f6a6362c93e # Episode Reference Links
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -143,12 +184,12 @@ fieldLayouts:
         userCondition: null
 handle: episodes
 hasTitleField: true
+icon: null
 name: Episodes
-section: c1f6af30-7375-4feb-92ef-a3ed16ba69b2 # Episodes
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: ''

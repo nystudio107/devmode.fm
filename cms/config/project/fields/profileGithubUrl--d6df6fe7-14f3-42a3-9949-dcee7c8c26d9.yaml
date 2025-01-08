@@ -1,14 +1,15 @@
 columnSuffix: null
-contentColumnType: string(255)
-fieldGroup: 12aa936c-807f-4ec3-81dc-69283a344171 # Profile
 handle: profileGithubUrl
 instructions: null
 name: 'Profile GitHub URL'
 searchable: true
 settings:
   maxLength: 255
+  showLabelField: false
+  showTargetField: false
   types:
+    - entry
     - url
 translationKeyFormat: null
 translationMethod: none
-type: craft\fields\Url
+type: craft\fields\Link

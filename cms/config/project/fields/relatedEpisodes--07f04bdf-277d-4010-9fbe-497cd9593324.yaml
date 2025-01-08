@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: bfbd2913-36d8-4e54-9f9c-644e793f0ae9 # Episodes
 handle: relatedEpisodes
 instructions: null
 name: 'Related Episodes'
@@ -8,11 +6,11 @@ searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
-  localizeRelations: false
   maintainHierarchy: false
   maxRelations: 3
   minRelations: null
   selectionLabel: null
+  showCardsInGrid: false
   showSiteMenu: false
   sources:
     - 'section:c1f6af30-7375-4feb-92ef-a3ed16ba69b2' # Episodes
@@ -20,5 +18,5 @@ settings:
   validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
-translationMethod: site
+translationMethod: none
 type: craft\fields\Entries

@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: integer(10)
-fieldGroup: bfbd2913-36d8-4e54-9f9c-644e793f0ae9 # Episodes
 handle: episodeNumber
 instructions: null
 name: 'Episode Number'
@@ -14,6 +12,7 @@ settings:
   previewCurrency: null
   previewFormat: decimal
   size: 10
+  step: null
   suffix: null
 translationKeyFormat: null
 translationMethod: none

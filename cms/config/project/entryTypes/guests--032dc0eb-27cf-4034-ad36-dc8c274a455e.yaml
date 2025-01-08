@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   93ce2e82-1407-4642-9ca7-b1fea1df0a56:
     tabs:
@@ -9,9 +10,12 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
+            dateAdded: '2025-01-08T21:08:40+00:00'
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
+            inputType: null
             instructions: null
             label: Title
             max: null
@@ -19,8 +23,9 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
-            requirable: false
+            required: true
             size: null
             step: null
             tip: null
@@ -31,10 +36,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: c05161c0-a294-4d47-8909-1cfc88c2f970 # Profile Company
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -43,10 +52,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 380e3b7e-07de-4d39-b0e5-360f5e87d00d # Profile Title
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -55,10 +68,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 9687721c-33b8-4a40-abb7-5c42e07ce274 # Profile Bio
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -67,10 +84,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 31b8c511-37f9-4d83-956d-5aa215572122 # Profile URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -79,10 +100,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: d6df6fe7-14f3-42a3-9949-dcee7c8c26d9 # Profile GitHub URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -91,10 +116,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 406c20cb-9b86-4b0d-9123-1ce57220e2a8 # Profile Twitter URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -107,12 +136,12 @@ fieldLayouts:
         userCondition: null
 handle: guests
 hasTitleField: true
+icon: null
 name: Guests
-section: 214e4dc6-a454-4df0-a1f5-cd94ecdab53f # Guests
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: ''
