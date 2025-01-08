@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: false
+entryTypes:
+  - a4be3483-f316-4f96-8820-3914ad7b863a # Site Offline
 handle: siteOffline
+maxAuthors: 1
 name: 'Site Offline'
 previewTargets:
   -

@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: bfbd2913-36d8-4e54-9f9c-644e793f0ae9 # Episodes
 handle: episodeHosts
 instructions: null
 name: 'Episode Hosts'
@@ -8,16 +6,16 @@ searchable: true
 settings:
   allowSelfRelations: false
   branchLimit: null
-  localizeRelations: false
   maintainHierarchy: false
   maxRelations: null
   minRelations: null
   selectionLabel: null
+  showCardsInGrid: false
   showSiteMenu: true
   sources: '*'
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
-translationMethod: site
+translationMethod: none
 type: craft\fields\Users

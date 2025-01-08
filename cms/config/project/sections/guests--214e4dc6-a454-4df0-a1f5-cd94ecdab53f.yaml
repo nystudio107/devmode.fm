@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 032dc0eb-27cf-4034-ad36-dc8c274a455e # Guests
 handle: guests
+maxAuthors: 1
 name: Guests
 propagationMethod: all
 siteSettings:

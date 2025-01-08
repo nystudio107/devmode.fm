@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: text
-fieldGroup: 88db3e41-57f4-404d-b3ea-762b09c37afe # Errors
 handle: errorHeadline
 instructions: null
 name: 'Error Headline'
@@ -9,7 +7,6 @@ settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: text
   initialRows: 4
   multiline: false
   placeholder: null

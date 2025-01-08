@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: text
-fieldGroup: bfbd2913-36d8-4e54-9f9c-644e793f0ae9 # Episodes
 handle: episodeSummary
 instructions: null
 name: 'Episode Summary'
@@ -9,7 +7,6 @@ settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: text
   initialRows: 6
   multiline: true
   placeholder: null

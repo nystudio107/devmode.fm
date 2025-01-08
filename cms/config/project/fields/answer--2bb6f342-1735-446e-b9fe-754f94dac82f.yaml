@@ -1,0 +1,43 @@
+columnSuffix: null
+handle: answer
+instructions: null
+name: 'FAQs - FAQs - Answer'
+searchable: true
+settings:
+  errorMessage: 'Unable to find component class ''craft\redactor\Field''.'
+  expectedType: craft\redactor\Field
+  settings:
+    __assoc__:
+      -
+        - availableTransforms
+        - '*'
+      -
+        - availableVolumes
+        - '*'
+      -
+        - cleanupHtml
+        - true
+      -
+        - columnType
+        - text
+      -
+        - purifierConfig
+        - ''
+      -
+        - purifyHtml
+        - '1'
+      -
+        - redactorConfig
+        - Standard.json
+      -
+        - removeEmptyTags
+        - '1'
+      -
+        - removeInlineStyles
+        - '1'
+      -
+        - removeNbsp
+        - '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\MissingField

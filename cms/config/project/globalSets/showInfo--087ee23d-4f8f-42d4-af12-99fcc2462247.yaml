@@ -5,10 +5,14 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: a8f2ec1a-a218-451c-a658-e3c600ddb5fa # Show Title
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -17,10 +21,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 6def66f0-2a8f-4b88-9435-7f9cc1ccfe9c # Show Genre
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -29,10 +37,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 2405ed1c-fd52-4264-a96a-f6e6fab437b5 # Show Sub-Title
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -41,10 +53,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 86909527-3ec4-4d57-a44c-167649eb86bf # Show Description
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -53,10 +69,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: bda219fa-bace-4d8b-ad3a-08243caaf6ca # Show Image
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -65,10 +85,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 428ec106-b2d1-4d48-a5fa-de192155dff5 # Show URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -77,10 +101,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: ca279869-925f-4960-865c-96cacd2aa942 # Show Email
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -89,10 +117,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: 14605669-4768-4f57-88d6-1f06480a9b80 # Show iTunes URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -101,10 +133,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: ab0ca0e9-1308-472f-92a5-2ab0cbd84943 # Show RSS Feed URL
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -113,10 +149,14 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-01-08T21:08:40+00:00'
             elementCondition: null
             fieldUid: eecc24bf-e253-43b8-b327-632e0dc07fa6 # Show Technologies Links
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

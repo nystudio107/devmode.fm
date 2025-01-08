@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: false
+entryTypes:
+  - e81379aa-e0c7-45c0-b506-c4ab8fce6bce # Generic Error
 handle: genericError
+maxAuthors: 1
 name: 'Generic Error'
 previewTargets:
   -

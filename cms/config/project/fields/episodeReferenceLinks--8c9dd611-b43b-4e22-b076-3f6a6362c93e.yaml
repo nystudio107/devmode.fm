@@ -1,13 +1,10 @@
 columnSuffix: null
-contentColumnType: text
-fieldGroup: bfbd2913-36d8-4e54-9f9c-644e793f0ae9 # Episodes
 handle: episodeReferenceLinks
 instructions: null
 name: 'Episode Reference Links'
 searchable: true
 settings:
   addRowLabel: 'Add a row'
-  columnType: text
   columns:
     __assoc__:
       -

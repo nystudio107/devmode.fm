@@ -1,14 +1,14 @@
 columnSuffix: null
-handle: showDescription
+handle: question
 instructions: null
-name: 'Show Description'
+name: 'FAQs - FAQs - Question'
 searchable: true
 settings:
   byteLimit: null
   charLimit: null
   code: false
-  initialRows: 6
-  multiline: true
+  initialRows: 4
+  multiline: false
   placeholder: null
   uiMode: normal
 translationKeyFormat: null

@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: text
-fieldGroup: 12aa936c-807f-4ec3-81dc-69283a344171 # Profile
 handle: profileTitle
 instructions: null
 name: 'Profile Title'
@@ -9,7 +7,6 @@ settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: text
   initialRows: 4
   multiline: false
   placeholder: null

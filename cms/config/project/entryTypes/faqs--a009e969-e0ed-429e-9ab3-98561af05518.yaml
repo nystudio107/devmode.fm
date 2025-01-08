@@ -1,0 +1,69 @@
+color: null
+fieldLayouts:
+  529896ec-dad3-4d01-8366-e2c4f7b33144:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-01-08T21:08:40+00:00'
+            elementCondition: null
+            fieldUid: e0264ea5-7834-42de-9f8f-c611149453d0 # FAQs - FAQs - Question
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Question
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 53b49b35-e7bc-4e11-95fb-038ec716cf25
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-08T21:08:40+00:00'
+            elementCondition: null
+            fieldUid: 2bb6f342-1735-446e-b9fe-754f94dac82f # FAQs - FAQs - Answer
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Answer
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ea93a09f-e0e0-4dcb-8d31-f466b6e1c60a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-01-08T21:08:40+00:00'
+            elementCondition: null
+            fieldUid: 98dbc824-8c89-4138-9b0f-011a96875a7a # FAQs - FAQs - Links
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Links
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2d0d1694-aec7-4e93-beac-26460e8770c2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3719d24a-d689-4ef9-b20a-252e6b3a6984
+        userCondition: null
+handle: faqs
+hasTitleField: false
+icon: null
+name: FAQs
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

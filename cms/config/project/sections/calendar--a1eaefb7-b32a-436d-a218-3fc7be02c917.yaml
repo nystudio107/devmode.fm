@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: false
+entryTypes:
+  - 7f6ad724-41b7-4a93-bef9-7de87d1bb23e # Calendar
 handle: calendar
+maxAuthors: 1
 name: Calendar
 previewTargets:
   -

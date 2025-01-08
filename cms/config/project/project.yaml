@@ -1,4 +1,4 @@
-dateModified: 1695404869
+dateModified: 1736370649
 email:
   fromEmail: andrew@nystudio107.com
   fromName: devMode
@@ -86,11 +86,10 @@ graphql:
     expiryDate: null
 meta:
   __names__:
-    0c790066-43c5-4b67-b6d9-8492fa40cf71: Show # Show
     1a66bf43-6fcc-4a78-bf36-0f350b930430: 'Episodes Index' # Episodes Index
     1be1c156-82fa-4f08-bb63-6d3417da2844: 'Optimized Images' # Optimized Images
     2a4761bd-2461-4db9-96a0-4f52b8cef633: devMode # devMode
-    2bb6f342-1735-446e-b9fe-754f94dac82f: Answer # Answer
+    2bb6f342-1735-446e-b9fe-754f94dac82f: 'FAQs - FAQs - Answer' # FAQs - FAQs - Answer
     4d90d0e7-b705-4035-b396-2f82ce5bb871: 'Error Image' # Error Image
     5f70b9e0-f42b-4fdb-bcf6-5e82691d89de: 'Site Offline' # Site Offline
     6def66f0-2a8f-4b88-9435-7f9cc1ccfe9c: 'Show Genre' # Show Genre
@@ -99,10 +98,8 @@ meta:
     7f6ad724-41b7-4a93-bef9-7de87d1bb23e: Calendar # Calendar
     8c9dd611-b43b-4e22-b076-3f6a6362c93e: 'Episode Reference Links' # Episode Reference Links
     9aae2c4b-7316-4ee9-a2d1-41474766b361: Homepage # Homepage
-    12aa936c-807f-4ec3-81dc-69283a344171: Profile # Profile
     18d7721b-780b-4a44-976a-716c3df0bb7a: 'Error Headline' # Error Headline
     19dfdfbb-837c-46d5-87bf-e6540df98dc4: Hosts # Hosts
-    19e4e8ba-93c2-4a86-8c57-9b54d46e0981: Site # Site
     29da80bf-c705-441b-be33-96df307c84c6: '503 Service Unavailable' # 503 Service Unavailable
     31b8c511-37f9-4d83-956d-5aa215572122: 'Profile URL' # Profile URL
     032dc0eb-27cf-4034-ad36-dc8c274a455e: Guests # Guests
@@ -110,9 +107,8 @@ meta:
     52b673e7-3d80-44a4-94f7-43eaafcc9d6f: '404 Not Found' # 404 Not Found
     78ad1f1e-5dc5-4cff-b19f-43aa4ec02869: '404 Not Found' # 404 Not Found
     087ee23d-4f8f-42d4-af12-99fcc2462247: 'Show Info' # Show Info
-    88db3e41-57f4-404d-b3ea-762b09c37afe: Errors # Errors
     0090f7a3-1e22-4fb5-9ae0-01de38805601: 'Episode Media' # Episode Media
-    98dbc824-8c89-4138-9b0f-011a96875a7a: Links # Links
+    98dbc824-8c89-4138-9b0f-011a96875a7a: 'FAQs - FAQs - Links' # FAQs - FAQs - Links
     98f56e95-4be6-4238-a110-1f21574fa642: 'Devmode Users' # Devmode Users
     214e4dc6-a454-4df0-a1f5-cd94ecdab53f: Guests # Guests
     324e7a11-3346-41e7-a29d-4636ab907e51: 'Episode Number' # Episode Number
@@ -125,7 +121,6 @@ meta:
     7540db37-7ec3-4471-9de6-36bde06e949a: 'Devmode Site' # Devmode Site
     9436ac5e-44de-4fe9-be59-fd1f0fc26941: Owners # Owners
     34348a98-83b9-4f2d-8e14-0437ec964a15: devMode # devMode
-    49649e9a-033b-4ddf-9f3d-26a480502993: About # About
     61953a92-8b34-4678-9bae-fd5a45142f26: 'Episode Tags' # Episode Tags
     519413e8-a432-4cfe-98c5-5f81e9519f2a: 'Generic Error' # Generic Error
     523395ea-5738-4ca5-a119-f32221ea5ca8: 'Episode Transcript' # Episode Transcript
@@ -145,13 +140,12 @@ meta:
     b5eb01ec-a6ed-4a08-9438-64e7138b08f0: FAQs # FAQs
     bd8ef0d7-f73b-4138-ac52-c14d11dd780e: 'Devmode Transcripts' # Devmode Transcripts
     bda219fa-bace-4d8b-ad3a-08243caaf6ca: 'Show Image' # Show Image
-    bfbd2913-36d8-4e54-9f9c-644e793f0ae9: Episodes # Episodes
     c05161c0-a294-4d47-8909-1cfc88c2f970: 'Profile Company' # Profile Company
     c1f6af30-7375-4feb-92ef-a3ed16ba69b2: Episodes # Episodes
     ca279869-925f-4960-865c-96cacd2aa942: 'Show Email' # Show Email
     cc4ea2bd-3bde-4bad-8f72-272fcc3c2a19: About # About
     d6df6fe7-14f3-42a3-9949-dcee7c8c26d9: 'Profile GitHub URL' # Profile GitHub URL
-    e0264ea5-7834-42de-9f8f-c611149453d0: Question # Question
+    e0264ea5-7834-42de-9f8f-c611149453d0: 'FAQs - FAQs - Question' # FAQs - FAQs - Question
     e69c8edb-d562-4367-9a05-91a6fd2c7d99: 'Devmode Episodes' # Devmode Episodes
     e81379aa-e0c7-45c0-b506-c4ab8fce6bce: 'Generic Error' # Generic Error
     e1087165-5769-428d-bf14-c98e6011cf5e: 'Error Text' # Error Text
@@ -336,5 +330,5 @@ system:
   live: true
   name: devMode.fm
   retryDuration: 60
-  schemaVersion: 4.5.3.0
+  schemaVersion: 5.5.0.0
   timeZone: America/New_York

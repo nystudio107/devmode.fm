@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: string
-fieldGroup: 0c790066-43c5-4b67-b6d9-8492fa40cf71 # Show
 handle: showImage
 instructions: null
 name: 'Show Image'
@@ -14,7 +12,6 @@ settings:
   branchLimit: null
   defaultUploadLocationSource: 'volume:7540db37-7ec3-4471-9de6-36bde06e949a' # Devmode Site
   defaultUploadLocationSubpath: null
-  localizeRelations: false
   maintainHierarchy: false
   maxRelations: 1
   minRelations: null
@@ -25,6 +22,7 @@ settings:
   restrictedLocationSource: 'volume:e69c8edb-d562-4367-9a05-91a6fd2c7d99' # Devmode Episodes
   restrictedLocationSubpath: null
   selectionLabel: null
+  showCardsInGrid: false
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: true
@@ -34,5 +32,5 @@ settings:
   validateRelatedElements: false
   viewMode: large
 translationKeyFormat: null
-translationMethod: site
+translationMethod: none
 type: craft\fields\Assets

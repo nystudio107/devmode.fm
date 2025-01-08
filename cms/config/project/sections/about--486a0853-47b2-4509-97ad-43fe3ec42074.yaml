@@ -1,6 +1,9 @@
 defaultPlacement: end
 enableVersioning: false
+entryTypes:
+  - cc4ea2bd-3bde-4bad-8f72-272fcc3c2a19 # About
 handle: about
+maxAuthors: 1
 name: About
 previewTargets:
   -

@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: showTechnologiesLinks
+handle: links
 instructions: null
-name: 'Show Technologies Links'
+name: 'FAQs - FAQs - Links'
 searchable: true
 settings:
   addRowLabel: 'Add a row'
@@ -13,10 +13,10 @@ settings:
           __assoc__:
             -
               - heading
-              - 'Link Name'
+              - 'Link Text'
             -
               - handle
-              - linkName
+              - linkText
             -
               - width
               - ''
@@ -29,7 +29,7 @@ settings:
           __assoc__:
             -
               - heading
-              - 'Link URL'
+              - 'Link Url'
             -
               - handle
               - linkUrl

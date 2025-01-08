@@ -1,6 +1,4 @@
 columnSuffix: null
-contentColumnType: text
-fieldGroup: 0c790066-43c5-4b67-b6d9-8492fa40cf71 # Show
 handle: showGenre
 instructions: null
 name: 'Show Genre'
@@ -9,7 +7,6 @@ settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: text
   initialRows: 4
   multiline: false
   placeholder: null
