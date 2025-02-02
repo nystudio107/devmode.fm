@@ -1,5 +1,7 @@
 FROM nystudio107/node-dev-base:22-alpine
 
+RUN npm install -g npm@^11.0.0
+
 WORKDIR /var/www/project/
 
 # Install packages
