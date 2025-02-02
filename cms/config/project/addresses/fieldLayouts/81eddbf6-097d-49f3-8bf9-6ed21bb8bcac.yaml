@@ -7,7 +7,7 @@ tabs:
         autocomplete: false
         autocorrect: true
         class: null
-        dateAdded: '2025-02-01T23:44:18-05:00'
+        dateAdded: '2025-02-02T14:30:36-05:00'
         disabled: false
         elementCondition: null
         id: null
@@ -28,13 +28,13 @@ tabs:
         tip: null
         title: null
         type: craft\fieldlayoutelements\addresses\LabelField
-        uid: ff1c7b12-cc1d-486f-93cd-1db1aa279cc9
+        uid: 66fb27f9-32e9-4f40-841d-ce7016affc2e
         userCondition: null
         warning: null
         width: 100
       -
         attribute: countryCode
-        dateAdded: '2025-02-01T23:44:18-05:00'
+        dateAdded: '2025-02-02T14:30:36-05:00'
         elementCondition: null
         id: null
         includeInCards: false
@@ -45,12 +45,12 @@ tabs:
         requirable: false
         tip: null
         type: craft\fieldlayoutelements\addresses\CountryCodeField
-        uid: ba67fc63-260b-487e-8abd-e725923446d2
+        uid: 602dff09-3990-47e0-8945-5e0f9961718a
         userCondition: null
         warning: null
         width: 100
       -
-        dateAdded: '2025-02-01T23:44:18-05:00'
+        dateAdded: '2025-02-02T14:30:36-05:00'
         elementCondition: null
         includeInCards: true
         instructions: null
@@ -59,9 +59,9 @@ tabs:
         required: false
         tip: null
         type: craft\fieldlayoutelements\addresses\AddressField
-        uid: 70757f73-cc3e-42b9-a306-ae1c3a1b75e4
+        uid: a3783dcc-d342-4768-ba88-f3045580a743
         userCondition: null
         warning: null
     name: Content
-    uid: 5a213c1a-bc57-4607-bb12-9a92f61d5ed0
+    uid: 0d6d4523-a757-4db0-aaa4-afc4bfe058a9
     userCondition: null
