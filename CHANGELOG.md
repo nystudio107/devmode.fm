@@ -1,11 +1,12 @@
 # nystudio107/devmode Change Log
 
-## 2.8.1 - UNRELEASED
+## 2.8.1 - 2025.02.02
 ### Added
 * Updated to Vite 6
 * Updated to Tailwind 4
+* Updated to npm 11
 
-## 2.8.0 - 2024.01.08
+## 2.8.0 - 2025.01.08
 ### Added
 * Updated to Craft CMS 5
 
