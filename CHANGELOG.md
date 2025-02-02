@@ -1,5 +1,10 @@
 # nystudio107/devmode Change Log
 
+## 2.8.1 - UNRELEASED
+### Added
+* Updated to Vite 6
+* Updated to Tailwind 4
+
 ## 2.8.0 - 2024.01.08
 ### Added
 * Updated to Craft CMS 5
