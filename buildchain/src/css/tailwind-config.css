@@ -1,3 +1,10 @@
+/**
+ * tailwind-config.css
+ *
+ * CSS-based configuration for Tailwind CSS
+ * ref: https://tailwindcss.com/docs/theme
+ */
+
 @source "../../../cms/templates/";
 @source "../.././node_modules/vuetable-2/src/components/";
 
