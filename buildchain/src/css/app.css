@@ -1,0 +1,32 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ */
+@import "tailwindcss";
+@import "./tailwind-config.css";
+
+/**
+ * Here we add custom component classes; stuff we want loaded
+ * *before* the utilities so that the utilities can still
+ * override them.
+ *
+ */
+@import "./components/global.css";
+@import "./components/fontello-codes.css";
+@import "./components/tables.css";
+@import "./components/range-slider.css";
+@import "./components/typography.css";
+@import "./components/webfonts.css";
+@import "./components/webmentions.css";
+
+/**
+ * Include styles for individual pages
+ *
+ */
+@import "./pages/homepage.css";
+
+/**
+ * Include vendor css.
+ *
+ */
+@import "./vendor.css";

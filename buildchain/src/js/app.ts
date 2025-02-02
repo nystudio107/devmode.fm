@@ -1,5 +1,5 @@
 import Snowf from 'vue-snowf';
-import '@/css/app.pcss';
+import '@/css/app.css';
 
 // App main
 const main = async () => {
