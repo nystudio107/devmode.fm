@@ -4,9 +4,9 @@ instructions: null
 name: 'Show iTunes URL'
 searchable: true
 settings:
+  fullGraphqlData: false
   maxLength: 255
   showLabelField: false
-  showTargetField: false
   types:
     - entry
     - url

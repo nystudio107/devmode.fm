@@ -7,7 +7,11 @@ settings:
   createButtonLabel: null
   defaultIndexViewMode: cards
   entryTypes:
-    - a009e969-e0ed-429e-9ab3-98561af05518 # FAQs
+    -
+      __assoc__:
+        -
+          - uid
+          - a009e969-e0ed-429e-9ab3-98561af05518 # FAQs
   includeTableView: false
   maxEntries: null
   minEntries: null

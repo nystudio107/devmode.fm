@@ -1,7 +1,8 @@
 defaultPlacement: end
 enableVersioning: false
 entryTypes:
-  - 50012289-791c-48b2-8df1-31a8f5eb5380 # Episodes Index
+  -
+    uid: 50012289-791c-48b2-8df1-31a8f5eb5380 # Episodes Index
 handle: episodesIndex
 maxAuthors: 1
 name: 'Episodes Index'
