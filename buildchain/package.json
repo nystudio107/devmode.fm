@@ -2,6 +2,7 @@
   "name": "devmode-fm",
   "description": "Website for the devMode.fm podcast",
   "type": "module",
+  "version": "1.0.0",
   "author": {
     "email": "andrew@nystudio107.com",
     "name": "Andrew Welch",

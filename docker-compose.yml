@@ -2,7 +2,7 @@ services:
   # nginx - web server
   nginx:
     build:
-      context: ./docker-config/nginx
+      context: ./.docker-config/nginx
       dockerfile: ./Dockerfile
     env_file: &env
       - ./cms/.env
@@ -17,7 +17,7 @@ services:
   # php - run php-fpm
   php:
     build: &php-build
-      context: ./docker-config/php-prod-craft
+      context: ./.docker-config/php-prod-craft
       dockerfile: ./Dockerfile
     depends_on:
       - "postgres"
@@ -41,7 +41,7 @@ services:
   # php - run php-fpm with xdebug
   php_xdebug:
     build:
-      context: ./docker-config/php-dev-craft
+      context: ./.docker-config/php-dev-craft
       dockerfile: ./Dockerfile
     depends_on:
       - "php"
@@ -57,7 +57,7 @@ services:
   # postgres - database
   postgres:
     build:
-      context: ./docker-config/postgres
+      context: ./.docker-config/postgres
       dockerfile: ./Dockerfile
     env_file:
       *env
@@ -88,7 +88,7 @@ services:
   # redis - key/value database for caching & php sessions
   redis:
     build:
-      context: ./docker-config/redis
+      context: ./.docker-config/redis
       dockerfile: ./Dockerfile
     expose:
       - "6379"
@@ -96,7 +96,7 @@ services:
   # vite - frontend build system
   vite:
     build:
-      context: ./docker-config/node-dev-vite
+      context: ./.docker-config/node-dev-vite
       dockerfile: ./Dockerfile
     env_file:
       *env

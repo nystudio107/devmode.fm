@@ -53,7 +53,12 @@
       "craftcms/plugin-installer": true,
       "yiisoft/yii2-composer": true
     },
-    "optimize-autoloader": true
+    "platform": {
+      "php": "8.2"
+    },
+    "platform-check": false,
+    "optimize-autoloader": true,
+    "sort-packages": true
   },
   "scripts": {
     "craft-update": [
