@@ -1,7 +1,8 @@
 defaultPlacement: end
 enableVersioning: false
 entryTypes:
-  - 78ad1f1e-5dc5-4cff-b19f-43aa4ec02869 # 404 Not Found
+  -
+    uid: 78ad1f1e-5dc5-4cff-b19f-43aa4ec02869 # 404 Not Found
 handle: notFound
 maxAuthors: 1
 name: '404 Not Found'

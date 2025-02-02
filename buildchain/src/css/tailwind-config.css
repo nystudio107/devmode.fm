@@ -1,0 +1,14 @@
+@source "../../../cms/templates/";
+@source "../.././node_modules/vuetable-2/src/components/";
+
+@theme {
+    --color-devmode-pink: #eb5286;
+    --color-devmode-aqua: #00b2c2;
+    --color-devmode-yellow: #f2d024;
+    --text-xxs: 0.5rem;
+    --text-huge: 5rem;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}

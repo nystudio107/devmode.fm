@@ -1,4 +1,4 @@
-FROM nystudio107/node-dev-base:20-alpine
+FROM nystudio107/node-dev-base:22-alpine
 
 WORKDIR /var/www/project/
 

@@ -1,7 +1,8 @@
 defaultPlacement: end
 enableVersioning: false
 entryTypes:
-  - 913ea665-c268-4177-8054-fe76f80101c6 # Episodes
+  -
+    uid: 913ea665-c268-4177-8054-fe76f80101c6 # Episodes
 handle: episodes
 maxAuthors: 1
 name: Episodes

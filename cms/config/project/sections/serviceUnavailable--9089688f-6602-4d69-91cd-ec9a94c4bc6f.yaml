@@ -1,7 +1,8 @@
 defaultPlacement: end
 enableVersioning: false
 entryTypes:
-  - 29da80bf-c705-441b-be33-96df307c84c6 # 503 Service Unavailable
+  -
+    uid: 29da80bf-c705-441b-be33-96df307c84c6 # 503 Service Unavailable
 handle: serviceUnavailable
 maxAuthors: 1
 name: '503 Service Unavailable'

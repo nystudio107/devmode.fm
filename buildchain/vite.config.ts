@@ -1,6 +1,8 @@
 import {defineConfig} from 'vite';
 import createVuePlugin from '@vitejs/plugin-vue2';
 import legacy from '@vitejs/plugin-legacy';
+import checker from 'vite-plugin-checker';
+import tailwindcss from "@tailwindcss/vite";
 import ViteRestart from 'vite-plugin-restart';
 import {partytownVite} from '@builder.io/partytown/utils';
 import viteCompression from 'vite-plugin-compression';
@@ -68,6 +70,30 @@ export default defineConfig(({command}) => ({
       template: 'treemap',
       sourcemap: true,
     }),
+    tailwindcss(),
+    checker({
+      eslint: {
+        lintCommand: 'eslint "./src/**/*.{js,ts}"',
+        useFlatConfig: true,
+        dev: {
+          overrideConfig: {
+            cache: true,
+          }
+        }
+      },
+      stylelint: {
+        lintCommand: 'stylelint ./src/**/*.{css} --allow-empty-input --fix',
+        dev: {
+          overrideConfig: {
+            allowEmptyInput: true,
+            cache: true,
+            fix: false
+          }
+        }
+      },
+      typescript: true,
+      vueTsc: true,
+    }),
   ],
   optimizeDeps: {
     include: ['axios'],
@@ -81,8 +107,16 @@ export default defineConfig(({command}) => ({
     preserveSymlinks: true,
   },
   server: {
+    // Allow cross-origin requests -- https://github.com/vitejs/vite/security/advisories/GHSA-vg6x-rcgg-rjx6
+    allowedHosts: true,
+    cors: {
+      origin: /https?:\/\/([A-Za-z0-9\-\.]+)?(localhost|\.local|\.test|\.site)(?::\d+)?$/
+    },
     fs: {
       strict: false
+    },
+    headers: {
+      "Access-Control-Allow-Private-Network": "true",
     },
     host: '0.0.0.0',
     origin: 'http://localhost:3000',
