@@ -42,7 +42,6 @@
     "@builder.io/partytown": "^0.3.6",
     "@eslint/js": "^9.19.0",
     "@types/node": "^22.0.0",
-    "@tailwindcss/postcss": "^4.0.0",
     "@tailwindcss/vite": "^4.0.0",
     "@vitejs/plugin-legacy": "^6.0.0",
     "@vitejs/plugin-vue2": "^2.3.3",
